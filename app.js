@@ -59,8 +59,8 @@ mongoose
     console.log(err);
   });
 
-  // pings backend every 5 mins to avoid sleeping
-var http = require("http");
-setInterval(function () {
-  http.get("http://place-logger.herokuapp.com");
-}, 300000); // every 5 minutes (300000)
+//   // pings backend every 5 mins to avoid sleeping
+// var http = require("http");
+// setInterval(function () {
+//   http.get("http://place-logger.herokuapp.com");
+// }, 300000); // every 5 minutes (300000)
